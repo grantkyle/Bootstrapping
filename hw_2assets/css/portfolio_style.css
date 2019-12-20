@@ -1,0 +1,113 @@
+body {
+    background-image: url('../images/let-there-be-sun.png');
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black; 
+    line-height: 150%;
+    margin: 0;
+    padding: 0}
+    
+    .nav {float: right;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+    
+    .navstyle {margin: 20px; text-align:right}
+
+    /* div {background-image: url('../images/let-there-be-sun.png')} */
+    
+    header {background-color: cornsilk;
+    }
+   
+.header {
+width:200px;
+background-color:teal;
+text-align:center}
+
+h1 {color: #eee;
+font-size: 28px;
+padding: 30px;
+margin: auto;}
+    
+    
+    .left-align {
+        margin-left: 210px;
+    }
+    
+    .headingcolor {color: white}
+    
+    h2 {font-size: 24px; color: teal}
+    
+    .container {border: 1px solid black;
+        background-image: url('../images/let-there-be-sun.png');
+        height: 960px;
+    width: 100%; 
+    margin: 0 auto;
+    margin-top: 0px;
+    }
+    
+    .container-photo-label {
+        position: relative;
+        text-align: center;
+        color: white;float: left; margin: 25px}
+
+    .dog-pics {
+        position: absolute;
+        bottom: 8px;
+    font-family: sans-serif; background: teal; width: 100%}
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 135px;
+        background: teal;
+        color: white;
+        text-align: center;
+        border-top: 8px solid #4aaaa5}
+     
+    .main-bio {float: left; 
+        background-color: cornsilk;
+        width: 65%;
+        margin-left:50px;
+        margin-top: 30px;
+        height: 500px;
+        padding-left: 20px;
+        margin: 30px 160px 0px 160px;
+        overflow-y:scroll;
+    }
+
+    .bio-border
+    {border-bottom: 1px solid teal; background: cornsilk}
+    
+    #contact-info {float: left;
+    width: 100%}
+    
+    .footer-email {padding-right: 10px; background: teal}
+    
+    .footer-github {padding-right: 10px; background: teal}
+    
+    .footer-portfolio {padding-right: 10px; background: teal}
+    
+    #bio-image {float: left; 
+        width: 200px;
+        margin: 30px;
+    }
+    
+    .clearfix::after {content: "";
+        clear: both;
+        display: table;
+    }
+    
+ #photo1 {width: 200px;
+height: 200px}
+
+#photo2 {width: 200px;
+    height: 200px}
+
+    #photo3 {width: 200px;
+        height: 200px}
+
+        #photo4 {width: 200px;
+            height: 200px}
+        
+        
