@@ -94,11 +94,12 @@ footer {
     strong {background: teal}
 
     a {background: teal; color: purple}
-    .footer-email {padding-right: 10px; background: teal; color: }
     
-    .footer-github {padding-right: 10px; background: teal}
+    .footer-email {padding-right: 10px; background: teal;}
     
-    .footer-portfolio {padding-right: 10px; background: teal}
+    .footer-github {padding-right: 10px; background: teal;}
+    
+    .footer-portfolio {padding-right: 10px; background: teal;}
 
 
     /*BEGIN CONTACT PAGE CSS*/
