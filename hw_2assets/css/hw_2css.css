@@ -37,7 +37,9 @@ width: 260px}
 
 .bio-color {border-style: black 1px; background: cornsilk;}
 
-p {background: cornsilk}
+p {background: cornsilk; padding-top: 20px}
+
+.bio-paragraph {padding: 40px}
 
 .bio-header {background: cornsilk; color: teal; 
     }
