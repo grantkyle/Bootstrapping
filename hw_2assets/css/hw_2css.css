@@ -8,23 +8,25 @@ body {font-family: Georgia, 'Times New Roman', Times, serif}
 header {background: cornsilk; margin-bottom: 50px;
 }
 
+.header-name {background: teal;}
+
 .header {
     width:200px; color: teal;
-    background-color: teal;
-    text-align:center; 
-    
+    background: cornsilk;
+    text-align:center;    
 height: 80px; width: auto;}
 
-.navstyle {margin: 20px; text-align:right; background: cornsilk}
+.nav-color {background: cornsilk; flex-direction: inherit;}
 
-.nav {float: right;
-    font-family: Georgia, 'Times New Roman', Times, serif; background: cornsilk;
+.footer-color {background: teal}
 
+.navstyle {margin: 20px; margin-left: 200px; background: cornsilk}
+
+.nav {
+    font-family: Georgia, 'Times New Roman', Times, serif; background: cornsilk; padding-left: 30px;
 }
 
 .bio-float {float: left}
-
-.test-color {background: teal}
 
 .left-align {text-align: left; 
     padding-left: 140px; padding-top: 30px;
@@ -33,14 +35,9 @@ height: 80px; width: auto;}
 .bio-image {height: 200px;
 width: 260px}
 
-.bio-color {border-style: black 1px; background: cornsilk}
+.bio-color {border-style: black 1px; background: cornsilk;}
 
 p {background: cornsilk}
-
-/*.header {background: cornsilk;
-    width:200px;
-    color: teal;
-    text-align:center}*/
 
 .bio-header {background: cornsilk; color: teal; 
     }
@@ -58,7 +55,7 @@ p {background: cornsilk}
     margin-top: 30px;
     margin: 0 auto;}
 
-.bio-underline {border-bottom: 1px solid black;}
+/*.bio-underline {border-bottom: 1px solid black;}*/
 
 
  .container {float: left; 
@@ -90,7 +87,7 @@ footer {
 #contact-info {float: left;
     width: 100%; background: teal}
     
-    ul {background: teal}
+    ul {background: cornsilk}
 
     strong {background: teal}
 
@@ -104,15 +101,19 @@ footer {
 
     /*BEGIN CONTACT PAGE CSS*/
 
-    #contact_form {background: cornsilk; padding: 10px; margin: 10px; width: 100%}
+    #contact_form {background: cornsilk; padding: 10px; margin: 10px; width: 100%;}
 
     .contact-tweaks {background: cornsilk;}
 
-    .contact_container {
-    background-color: cornsilk;
-    width: 70%; 
-    margin: 0 auto;
-    margin-top: 0px;
+    .contact_container {float: left; 
+        background-color: cornsilk;
+        width: 65%;
+        margin-left:50px;
+        margin-top: 30px;
+        height: 1000px;
+        padding-left: 20px;
+        margin: 30px 160px 0px 160px;
+        overflow-y:scroll;
     }
 
     .required {background: cornsilk}
@@ -123,15 +124,16 @@ footer {
 
  /*BEGIN PORTFOLIO PAGE CSS*/
 
-.container {float: left; 
+.portfolio_container {float: left; 
     background-color: cornsilk;
     width: 65%;
     margin-left:50px;
     margin-top: 30px;
+    padding-left: 15px;
     height: 1000px;
-    padding-left: 20px;
     margin: 30px 160px 0px 160px;
     overflow-y:scroll;
+    border: 1px solid black;
 }
 
 .container-photo-label {width: 250px; height: 250px; float: left; margin: 30px; background: cornsilk}

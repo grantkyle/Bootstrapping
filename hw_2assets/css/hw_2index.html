@@ -4,9 +4,9 @@
 <head>
 
     <meta charset="UTF-8">
-    <link href="../hw_2assets/css/hw_2reset.css" rel="stylesheet">
+    <link href="../css/hw_2reset.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link href="../hw_2assets/css/hw_2css.css" rel="stylesheet">
+    <link href="../css/hw_2css.css" rel="stylesheet">
     <title>Grant Kyle's Bootstrap-Fueled Profesh Portfolio</title>
 
 
@@ -15,14 +15,18 @@
 
 <body>
     <header>
-        <ul class="nav">
+        <div class="row">
+            <h1 class="header-name col-lg-3">
+                Grant Kyle</h1>
+            <div class="nav col-lg-9">
+                <ul class="nav-color">
 
-            <a class="navstyle" href="hw_2index.html">Home</a>
-            <a class="navstyle" href="hw_2contact.html">Contact</a>
-            <a class="navstyle" href="hw_2portfolio.html">Portfolio</a>
-        </ul>
-        <h1 class="left-align header img-fluid">
-            Grant Kyle</h1>
+                    <a class="navstyle col" href="hw_2index.html">Home</a>
+                    <a class="navstyle col" href="hw_2contact.html">Contact</a>
+                    <a class="navstyle col " href="hw_2portfolio.html">Portfolio</a>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <div class="container">
@@ -36,13 +40,13 @@
 
                 <div class="row bio-color">
 
-                    <div class="col-lg-12 bio-color">
+                    <div class="col-lg-5 bio-color">
 
-                        <img class="col-sm-12 col-lg-9 bio-image img-fluid bio-color"
+                        <img class="bio-image img-fluid bio-color"
                             src="https://orangutanjungleschool.com/wp-content/uploads/2018/07/Kopie-von-BPI_Partners_Cinta_2017-4361-1.jpg"
                             alt="Grant_is_a_primate">
                     </div>
-                    <div class="col-sm-12 col-lg-12 bio-color">
+                    <div class="col-lg-7 bio-color">
                         <p>Grant, an Austin native, finished his undergraduate studies at Texas State University
                             with a Bachelor
                             in English.
@@ -50,6 +54,10 @@
                             trying to
                             figure out what he was
                             going to do with the rest of his life.</p>
+                    </div>
+                </div>
+                <div class="row bio-color">
+                    <div class="col-lg-12 bio-color">
                         <p>After working remotely in digital marketing for the last
                             several years, he decided to
                             take the plunge into coding bootcamp. He hopes to continue working remotely as a full stack
@@ -100,23 +108,23 @@
 
 
                         </p>
-
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5">
-
-            </div>
         </div>
+    </div>
+    <div class="col-lg-5">
 
-        <!--<br>-->
+    </div>
+    </div>
+
 
     </div>
 
     <footer>
         <section id="contact-info">
             <h2 class="headingcolor">Contact Information</h2>
-            <ul>
+            <ul class="footer-color">
                 <div class="footer-email">
                     <strong>Email:</strong>
                     <a href="#">sgrantkyle@gmail.com</a>

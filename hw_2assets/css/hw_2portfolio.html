@@ -4,9 +4,9 @@
 <head>
 
     <meta charset="UTF-8">
-    <link href="../hw_2assets/css/hw_2reset.css" rel="stylesheet">
+    <link href="../css/hw_2reset.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link href="../hw_2assets/css/hw_2css.css" rel="stylesheet">
+    <link href="../css/hw_2css.css" rel="stylesheet">
     <title>Grant Kyle's Bootstrap-Fueled Profesh Portfolio</title>
 
 
@@ -16,53 +16,58 @@
 <body>
 
     <header>
-        <ul class="nav">
+        <div class="row">
+            <h1 class="header-name col-lg-3">
+                Grant Kyle</h1>
+            <div class="nav col-lg-9">
+                <ul class="nav-color">
 
-            <a class="navstyle" href="hw_2index.html">Home</a>
-            <a class="navstyle" href="hw_2contact.html">Contact</a>
-            <a class="navstyle" href="hw_2portfolio.html">Portfolio</a>
-        </ul>
-        <h1 class="left-align header img-fluid">
-            Grant Kyle</h1>
+                    <a class="navstyle col" href="hw_2index.html">Home</a>
+                    <a class="navstyle col" href="hw_2contact.html">Contact</a>
+                    <a class="navstyle col " href="hw_2portfolio.html">Portfolio</a>
+                </ul>
+            </div>
+        </div>
     </header>
 
-    <div class="container">
+    <div class="portfolio_container">
         <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-12 col-sm-9 portfolio-border">
+
+            <div class="portfolio-border">
 
                 <h2 class="portfolio-header">Portfolio</h2>
 
                 <a href="#">
                     <div class="container-photo-label">
-                        <img id="photo1" src="images/pit1.jpeg">
+                        <img id="photo1" src="../images/pit1.jpeg">
                         <div class="dog-pics">Good Woofer!</div>
                     </div>
                 </a>
 
                 <a href="#">
                     <div class="container-photo-label">
-                        <img id="photo2" src="images/pit2.jpeg">
+                        <img id="photo2" src="../images/pit2.jpeg">
                         <div class="dog-pics">Look at Doggy!</div>
                     </div>
                 </a>
 
                 <a href="#">
                     <div class="container-photo-label">
-                        <img id="photo3" src="images/pit3.jpeg">
+                        <img id="photo3" src="../images/pit3.jpeg">
                         <div class="dog-pics">AWWWW!</div>
                     </div>
-
-                    <a href="#">
-                        <div class="container-photo-label">
-                            <img id="photo4" src="images/pit4.jpeg">
-                            <div class="dog-pics">WHAT?!?</div>
-                        </div>
+                </a>
+                <a href="#">
+                    <div class="container-photo-label">
+                        <img id="photo4" src="../images/pit4.jpeg">
+                        <div class="dog-pics">WHAT?!?</div>
+                    </div>
+                </a>
             </div>
         </div>
-        <div class="col-lg-5">
 
-        </div>
+
+
     </div>
 
     <!--<br>-->
