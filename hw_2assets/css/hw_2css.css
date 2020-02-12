@@ -34,7 +34,18 @@ a:visited {color: whitesmoke}
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
 }
+.picture {
+  height: 400px;
+  width: 300px;
+}
 
+.pro-pic {height: 300px;
+width: 300px}
+
+.card-img-top{
+  height: 100px;
+  width: 100px
+}
 .demo .main-title {
   text-transform: uppercase;
   font-size: 4.2em;
