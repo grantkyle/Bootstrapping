@@ -74,7 +74,19 @@ html, body {
   color: #6666ff;
 }
 
-.fa-code, .fa-bold, .fa-css3, .fa-js, .fa-node {
+.fa-bolt {
+  color: darkorange
+}
+
+.fa-music {
+  color: darkgray
+}
+
+.fa-clock {
+  color: green
+}
+
+.fa-code, .fa-bold, .fa-css3, .fa-js, .fa-node, .fa-music, .fa-clock, .fa-bolt {
   font-size: 4em;
   margin: 1rem;
 }
