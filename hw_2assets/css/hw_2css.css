@@ -84,6 +84,11 @@ html, body {
   margin-bottom: 2rem;
 }
 
+.fun-box:hover {
+  background-color: #563d7c;
+  color: #ffffff;
+}
+
 .social a {
 font-size: 4.5em;
 padding: 3rem;
@@ -97,8 +102,15 @@ padding: 3rem;
   color: #dd4b39;
 }
 
-.fa-linkedin:hover, .fa-google-plus-g:hover {
-  color: #d5d5d5;
+.box-margin {
+  margin-top: 20px;
+}
+.fa-github {
+  color: #ffffff
+}
+
+.fa-linkedin:hover, .fa-google-plus-g:hover, .fa-github:hover {
+  color: #d3d3d3;
 }
 
 footer {
@@ -297,195 +309,7 @@ figure {
 
 
 
-/* Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }*/
-
-/* Medium (md) devices (tablets, 768px and up) */
-/* @media (min-width: 768px) {
-  
-} */
-
-/* Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*{background-image: url('../images/let-there-be-sun.png');}
-
-body {font-family: Georgia, 'Times New Roman', Times, serif}
-
-header {background: cornsilk; margin-bottom: 50px;
-}
-
-.header-name {background: teal;}
-
-.header {
-    width:200px; color: teal;
-    background: cornsilk;
-    text-align:center;    
-height: 80px; width: auto;}
-
-.nav-color {background: cornsilk; flex-direction: inherit;}
-
-.footer-color {background: teal}
-
-.navstyle {margin: 20px; margin-left: 200px; background: cornsilk}
-
-.nav {
-    font-family: Georgia, 'Times New Roman', Times, serif; background: cornsilk; padding-left: 30px;
-}
-
-.bio-float {float: left}
-
-.left-align {text-align: left; 
-    padding-left: 140px; padding-top: 30px;
-}
-
-.bio-image {height: 200px;
-width: 260px}
-
-.bio-color {border-style: black 1px; background: cornsilk;}
-
-p {background: cornsilk; padding-top: 20px}
-
-.bio-paragraph {padding: 40px}
-
-.bio-header {background: cornsilk; color: teal; 
-    }
-    
-.clearfix::after {content: "";
-        clear: both;
-        display: table;
-    }
-
-    .left-align {
-        margin-left: 14px; background: cornsilk;
-    }
-
-    .bio-border {border: 1px solid black;
-    margin-top: 30px;
-    margin: 0 auto;}
-
-.bio-underline {border-bottom: 1px solid black;}
-
-
- .container {float: left; 
-    background-color: cornsilk;
-    width: 65%;
-    margin-left:50px;
-    margin-top: 30px;
-    height: 800px;
-    padding-left: 20px;
-    margin: 30px 160px 0px 160px;
-    overflow-y:scroll;
-}
-
-h2 {color: white}
-
-.headingcolor {background: teal}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 135px;
-    background: teal;
-    color: white;
-    text-align: center;
-    border-top: 8px solid #4aaaa5}
-
-#contact-info {float: left;
-    width: 100%; background: teal}
-    
-    ul {background: cornsilk}
-
-    strong {background: teal}
-
-    a {background: teal; color: purple}
-    
-    .footer-email {padding-right: 10px; background: teal;}
-    
-    .footer-github {padding-right: 10px; background: teal;}
-    
-    .footer-portfolio {padding-right: 10px; background: teal;}
-
-
-    /*BEGIN CONTACT PAGE CSS*/
-
-    /* #contact_form {background: cornsilk; padding: 10px; margin: 10px; width: 100%;}
-
-    .contact-tweaks {background: cornsilk;}
-
-    .contact_container {float: left; 
-        background-color: cornsilk;
-        width: 65%;
-        margin-left:50px;
-        margin-top: 30px;
-        height: 1000px;
-        padding-left: 20px;
-        margin: 30px 160px 0px 160px;
-        overflow-y:scroll;
-    }
-
-    .required {background: cornsilk}
-
- button {background: teal}
-
- .input {background: white; border: 1px solid black; margin: 10px; width: 75%;}
-
- /*BEGIN PORTFOLIO PAGE CSS
-
-.portfolio_container {float: left; 
-    background-color: cornsilk;
-    width: 65%;
-    margin-left:50px;
-    margin-top: 30px;
-    padding-left: 15px;
-    height: 1000px;
-    margin: 30px 160px 0px 160px;
-    overflow-y:scroll;
-    border: 1px solid black;
-}
-
-.container-photo-label {width: 250px; height: 250px; float: left; margin: 30px; background: cornsilk}
-
-.portfolio-header {background: cornsilk; color: teal}
-
-.portfolio-border {background: cornsilk; height: 1500px;}
-
-.dog-pics {background: cornsilk}
-
-/* background image css 
-.large-header {
-    position: relative;
-    width: 100%;
-    background: #111;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
- }
- 
- .demo .large-header 
- {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
  }
  
  .main-title {
@@ -514,4 +338,4 @@ footer {
     .demo .main-title {
        font-size: 3em;
     }
- }  */
+ } 
