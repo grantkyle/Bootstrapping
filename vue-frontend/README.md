@@ -1,4 +1,26 @@
-# Bootstrapping
-I am really proud of my updated portfolio! This is the first project I've made that I am proud to show potential employers, aesthetically speaking. 
+# vue-frontend
 
-Even though the javascript is solid on the projects I included in my portfolio, my next goal is to go back through and make my programs more visually appealing. 
+Goal of this project is to migrate everything from my portfolio over to vue js
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
